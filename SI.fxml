@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: #201E1F;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerSp1">
+   <children>
+      <Text fill="WHITE" layoutX="6.0" layoutY="791.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GameHub ALPHA 0.1" />
+      <ImageView fitHeight="145.0" fitWidth="419.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Download.png" />
+         </image>
+      </ImageView>
+      <ListView fx:id="highsclist" layoutX="124.0" layoutY="235.0" prefHeight="398.0" prefWidth="382.0" />
+      <Button fx:id="startbtn" layoutX="565.0" layoutY="366.0" mnemonicParsing="false" text="Start">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Button>
+      <Button fx:id="bckbtn" layoutX="989.0" layoutY="43.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="135.0" style="-fx-background-color: #FFCC2A;" text="BACK">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Button>
+      <Text fx:id="desctxt" fill="WHITE" layoutX="754.0" layoutY="323.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Space Invaders ist ein Shoot-’em-up-Computerspiel, entworfen und programmiert von Toshihiro Nishikado und vertrieben von Taito. Erschienen ist es im Jahre 1978. Neben Pac-Man war Space Invaders eines der Spiele, die die frühe Entwicklung der Videospiele geprägt haben." textOrigin="CENTER" wrappingWidth="369.99998807907104">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Text fill="#ffcc2a" layoutX="124.0" layoutY="232.0" stroke="#ffcc2a" strokeType="OUTSIDE" strokeWidth="0.0" text="Highscores">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Text>
+      <Text fx:id="nametxt" fill="#ffcc2a" layoutX="754.0" layoutY="224.0" stroke="#ffcc2a" strokeType="OUTSIDE" strokeWidth="0.0" text="Space Invaders">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
